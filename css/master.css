@@ -1,0 +1,144 @@
+/* style by eu@israelguido.com.br 2018 */
+body {
+  margin: 0px;
+  background: #F9F9F9;
+}
+
+.wrapper {
+  background-image: url('../images/TelaOperacao.jpg');
+  width: 1280px;
+  min-height: 721px;
+  margin: 0 auto;
+  background-size: cover;
+    position: relative;
+}
+
+.arrows {
+    width: 97px;
+    height: 94px;
+    position: absolute;
+    top: 349px;
+    left: 752px;
+    transform: scale(1.2);
+}
+
+.left {
+  background-image: url('../images/btn_left.jpg');
+  width: 32px;
+  height: 100px;
+  cursor: pointer;
+  float: left;
+}
+.top {
+  background-image: url('../images/btn_top.jpg');
+  width: 35px;
+  height: 47px;
+  cursor: pointer;
+  float: left;
+}
+.bottom {
+  background-image: url('../images/btn_bottom.jpg');
+  width: 35px;
+  height: 47px;
+  cursor: pointer;
+  float: left;
+}
+.right {
+  background-image: url('../images/btn_right.jpg');
+  width: 30px;
+  min-height: 100px;
+  float: left;
+  margin-left: 67px;
+  margin-top: -100px;
+  cursor: pointer;
+}
+.zoom {
+      position: absolute;
+      top: 360px;
+      left: 866px;
+      transform: scale(1.2);
+}
+
+.mais{
+  background: url('../images/btn_zoom_mais.jpg');
+    width: 61px;
+    height: 27px;
+    cursor: pointer;
+}
+.menos {
+  background: url('../images/btn_zoom_menos.jpg');
+    width: 56px;
+    height: 27px;
+    margin-top: 18px;
+    cursor: pointer;
+}
+
+.video {
+    position: absolute;
+    right: 5px;
+   top: 32px;
+}
+
+.menu {
+  width: 180px;
+  min-height: 180px;
+  background: url('../images/PNG/bg_menu.png');
+  position: absolute;
+  z-index: 999 !important;
+}
+.btn_menu_1{
+  width: 142px;
+  min-height: 31px;
+  background: url('../images/PNG/g4_fire.png');
+  margin: 0px 0 5px 0;
+  cursor: pointer;
+}
+.btn_menu_2{
+  width: 142px;
+  min-height: 31px;
+  background: url('../images/PNG/g2_night_view.png');
+  margin: 0px 0 5px 0;
+  cursor: pointer;
+}
+.btn_menu_3{
+  width: 142px;
+  height: 31px;
+  background: url('../images/PNG/g1_change_view.png');
+  cursor: pointer;
+}
+.btn_menu_1:hover{
+  width: 142px;
+  min-height: 31px;
+  background: url('../images/PNG/h4_fire.png');
+  margin: 0px 0 5px 0;
+}
+.btn_menu_2:hover{
+  width: 142px;
+  min-height: 31px;
+  background: url('../images/PNG/h2_night_view.png');
+  margin: 0px 0 5px 0;
+  cursor: pointer;
+}
+.btn_menu_3:hover{
+  width: 142px;
+  height: 31px;
+  background: url('../images/PNG/h1_change_view.png');
+  cursor: pointer;
+}
+
+.menu_wrapper {
+    position: relative;
+    margin: 0 0 0 18px;
+    padding-top: 50px;
+}
+
+.alert_fire {
+    display: none;
+    top: 18%;
+    left: 40%;
+    position: absolute;
+    z-index: 999;
+    width: 316px;
+    min-height: 341px;
+    background: url('../images/PNG/g21_alert_fire.png');
+}
