@@ -27,7 +27,7 @@ $( document ).ready(function() {
 	//menu
 	$('#fire').click(function(){
 		console.log('carrega o video 2');
-		$('#video1 source').attr('src','videos/Deteccao.mp4');
+		$('#video1 source').attr('src','videos/2_alarm.mp4');
 		$('#video1')[0].load()
 		$('.alert_fire').css('display','block');
 		playPause();
@@ -39,7 +39,7 @@ $( document ).ready(function() {
 
 	$('#night').click(function(){
 		console.log('carrega o video 3');
-		$('#video1 source').attr('src','videos/night_visio.mp4');
+		$('#video1 source').attr('src','videos/3_night.mp4');
 		$('#video1')[0].load()
 	});
 	$('#change').click(function(){
